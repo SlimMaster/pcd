@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>preview</h1>
+<hr/>
+
+<h1>{{ title }}</h1>
+<hr/>
+
+<form method="POST" action="" enctype="multipart/form-data">
+{% csrf_token %}
+{{form.as_p}}
+<input type="submit" class="" value="{{ title }}" />
+</form> 
+{% endblock content%}
