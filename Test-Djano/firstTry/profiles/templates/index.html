@@ -1,0 +1,408 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="Responsive Personal One Page Portfolio">
+<meta name="keywords" content="Responsive, Personal, One Page Portfolio, Freelancers, Template">
+<meta name="author" content="peng lam">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css">
+<!-- site title -->
+<title>Farkasli</title>
+
+<!-- Bootstrap css -->
+<link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%} ">
+
+<!-- Animated css -->
+<link rel="stylesheet" href="{% static 'css/animate.css'%}">
+
+<!-- Font Awesome css -->
+<link rel="stylesheet" href="{% static ' css/font-awesome.min.css'%}">
+
+<!-- Nivo Lightbox css -->
+<link rel="stylesheet" href="{% static ' css/nivo-lightbox.css'%} ">
+<link rel="stylesheet" href=" {% static '  css/nivo_themes/default/default.css'%}">
+
+<!-- Main css -->
+<link rel="stylesheet" href="{% static ' css/style.css'%}">
+
+<!-- Google Font -->
+<link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
+
+</head>
+<body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
+
+<!-- =========================
+     PRE LOADER       
+============================== -->
+<div class="preloader">
+
+	<div class="sk-rotating-plane"></div>
+
+</div>
+
+
+<!-- =========================
+     NAVIGATION LINKS     
+============================== -->
+<div class="navbar navbar-fixed-top custom-navbar" role="navigation">
+	<div class="container">
+
+		<!-- navbar header -->
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand">Farkasli.</a>
+		</div>
+
+		<div class="collapse navbar-collapse">
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#home" class="smoothScroll">Acceuil</a></li>
+				<li><a href="#service" class="smoothScroll">Services</a></li>
+				<li><a href="#portfolio" class="smoothScroll">Produits</a></li>
+				<li><a href="#contact" class="smoothScroll">Contact</a></li>
+				<li><div class="ui center aligned basic segment">
+  					<div class="ui left icon action input" style="margin-top: 8px" >
+				    <i class="search icon"></i>
+				    <input type="text" placeholder="Order #">
+				    <div class="ui blue submit button">Search</div>
+				  </div>
+				  <div class="ui horizontal divider">
+				</div>
+				</li>
+			</ul>
+
+		</div>
+
+	</div>
+</div>
+
+
+<!-- =========================
+   HOME SECTION   
+============================== -->
+<section id="home" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+				<h3 class="wow bounceIn" data-wow-delay="0.9s">Chercher Produits & Comparer Prix</h3>
+				<h1 class="wow fadeInUp" data-wow-delay="1.6s">Le Monde Entre Tes Mains </h1>
+				<a href="#contact" class="btn btn-lg btn-default smoothScroll wow fadeInUp hidden-xs" data-wow-delay="2.3s">Contacter Nous</a>
+				<a href="login.php" class="btn btn-lg btn-danger smoothScroll wow fadeInUp" data-wow-delay="2.3s">Login</a>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+
+<!-- =========================
+    SERVICE SECTION   
+============================== -->
+<section id="service" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8" data-wow-delay="0.6s">
+				<div class="section-title">
+					<h2>Service</h2>
+					<p>Notre Site permet de chercher tous les produits desirés de differente site disponible et vous permet de comparer en cas de besoin.</p>
+				</div>
+			</div>
+
+			<div class="clearfix"></div>
+
+			<div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="0.6s">
+				<div class="service-thumb">
+					<h3>Design</h3>
+					<i class="fa fa-desktop"></i>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+					<ul>
+						<li>Web Design</li>
+						<li>Mobile UI</li>
+						<li>Facebook Banner</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="0.9s">
+				<div class="service-thumb">
+					<h3>Development</h3>
+					<i class="fa fa-gear"></i>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+					<ul>
+						<li>Website Development</li>
+						<li>Mobile App</li>
+						<li>Ecommerce Platform</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="1s">
+				<div class="service-thumb">
+					<h3>Social Marketing</h3>
+					<i class="fa fa-paper-plane"></i>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+					<ul>
+						<li>Page Admin</li>
+						<li>Real time Monitoring</li>
+						<li>Facebook, twitter</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+
+
+
+<!-- =========================
+    COUNTER SECTION   
+============================== -->
+<section id="counter" class="paralla-section">
+	<div class="container">
+		<div class="row">
+
+
+   <div class="col-md-4 col-sm-4 counter-item">
+             	<i class="fa -globe wow fadeInUp" data-wow-delay="1s"></i>
+				<h3 class="counter-number" data-from="1" data-to="12" data-speed="1000"></h3>
+				<h4 class="counter-text">Sources</h4>
+				<p>Les sites sources qui nous les utilises pour vous aider</p>
+            </div> 
+
+			<div class="col-md-4 col-sm-4 counter-item">	
+				<i class="fa fa-users wow fadeInUp" data-wow-delay="1.6s"></i>
+				<h3 class="counter-number" data-from="1" data-to="121" data-speed="2000"></h3>
+				<h4 class="counter-text">Clients satisfaits</h4>
+				<p>Ces Clients ont utilisé notre site pour la recherche de ses  produits et ils sont satisfaits de nos comparaisons  </p>
+            </div> 
+            
+
+            
+            <div class="col-md-4 col-sm-4 counter-item">	
+            	<i class="fa fa-shopping-cart wow fadeInUp" wow fadeInUp" data-wow-delay="1.9s"></i>
+				<h3 class="counter-number" data-from="1" data-to="253" data-speed="2500"></h3>
+				<h4 class="counter-text">Produits Disponibles</h4>
+				<p>Les produits que les client ont deja chercher et les autres produits qui nous vous  facilite l'access directe</p>
+            </div> 
+
+          
+		</div>
+	</div>
+</section>	
+
+<!-- =========================
+    Produits SECTION   
+============================== -->
+<section id="portfolio" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+
+				<div class="wow fadeInUp col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8" data-wow-delay="0.6s">
+					<div class="section-title">
+						<h2>Produits</h2>
+						<p>Ce Sont les produits disponibles qui les ont chercher</p>
+					</div>
+				</div>
+				
+					<!-- iso section -->
+					<div class="iso-section wow fadeInUp" data-wow-delay="0.9s">
+
+						<ul class="filter-wrapper clearfix">
+                   			<li><a href="#" data-filter="*" class="selected opc-main-bg">Tous</a></li>
+                   			<li><a href="#" class="opc-main-bg" data-filter=".graphic">PC</a></li>
+                   			<li><a href="#" class="opc-main-bg" data-filter=".template">Tablet</a></li>
+                   			<li><a href="#" class="opc-main-bg" data-filter=".photoshop">Smartphone</a></li>
+                    		<li><a href="#" class="opc-main-bg" data-filter=".branding">TV</a></li>
+               			</ul>
+
+               			<!-- iso box section -->
+               			<div class="iso-box-section wow fadeInUp" data-wow-delay="0.9s">
+               			 	<div class="iso-box-wrapper col4-iso-box">
+
+               				 	<div class="iso-box graphic photoshop branding col-md-4 col-sm-6">
+               				 		<div class="portfolio-thumb">
+               				 			<a href="images/portfolio-img1.jpg" data-lightbox-gallery="portfolio-gallery">
+               				 				<img src="images/portfolio-img1.jpg" class="fluid-img" alt="portfolio">
+               				 					<div class="portfolio-overlay">
+               				 						<div class="portfolio-item">
+               				 							<i class="fa fa-link"></i>
+               				 						</div>
+               				 					</div>
+               				 			</a>
+               				 		</div>
+               				 	</div>
+
+               				 	<div class="iso-box graphic template branding col-md-4 col-sm-6">
+               				 		<div class="portfolio-thumb">
+               				 			<a href="images/portfolio-img2.jpg" data-lightbox-gallery="portfolio-gallery">
+               				 				<img src="images/portfolio-img2.jpg" class="fluid-img" alt="portfolio">
+               				 					<div class="portfolio-overlay">
+               				 						<div class="portfolio-item">
+               				 							<i class="fa fa-link"></i>
+               				 						</div>
+               				 					</div>
+               				 			</a>
+               				 		</div>
+               				 	</div>
+
+               				 	<div class="iso-box template graphic col-md-4 col-sm-6">
+               				 		<div class="portfolio-thumb">
+               				 			<a href="images/portfolio-img3.jpg" data-lightbox-gallery="portfolio-gallery">
+               				 				<img src="images/portfolio-img3.jpg" class="fluid-img" alt="portfolio">
+               				 					<div class="portfolio-overlay">
+               				 						<div class="portfolio-item">
+               				 							<i class="fa fa-link"></i>
+               				 						</div>
+               				 					</div>
+               				 			</a>
+               				 		</div>
+               				 	</div>
+
+               				 	<div class="iso-box graphic template col-md-4 col-sm-6">
+               				 		<div class="portfolio-thumb">
+               				 			<a href="images/portfolio-img4.jpg" data-lightbox-gallery="portfolio-gallery">
+               				 				<img src="images/portfolio-img4.jpg" class="fluid-img" alt="portfolio">
+               				 					<div class="portfolio-overlay">
+               				 						<div class="portfolio-item">
+               				 							<i class="fa fa-link"></i>
+               				 						</div>
+               				 					</div>
+               				 			</a>
+               				 		</div>
+               				 	</div>
+
+               				 	<div class="iso-box photoshop branding col-md-4 col-sm-6">
+               				 		<div class="portfolio-thumb">
+               				 			<a href="images/portfolio-img5.jpg" data-lightbox-gallery="portfolio-gallery">
+               				 				<img src="images/portfolio-img5.jpg" class="fluid-img" alt="portfolio">
+               				 					<div class="portfolio-overlay">
+               				 						<div class="portfolio-item">
+               				 							<i class="fa fa-link"></i>
+               				 						</div>
+               				 					</div>
+               				 			</a>
+               				 		</div>
+               				 	</div>
+
+               				 	<div class="iso-box graphic branding col-md-4 col-sm-6">
+               				 		<div class="portfolio-thumb">
+               				 			<a href="images/portfolio-img6.jpg" data-lightbox-gallery="portfolio-gallery">
+               				 				<img src="images/portfolio-img6.jpg" class="fluid-img" alt="portfolio">
+               				 					<div class="portfolio-overlay">
+               				 						<div class="portfolio-item">
+               				 							<i class="fa fa-link"></i>
+               				 						</div>
+               				 					</div>
+               				 			</a>
+               				 		</div>
+               				 	</div>
+
+               				 </div>
+               			</div>
+
+					</div>
+
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    CONTACT SECTION   
+============================== -->
+<section id="contact" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8" data-wow-delay="0.6s">
+				<div class="section-title">
+					<h2>Contact us</h2>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+				</div>
+			</div>
+
+			<div class="clearfix"></div>
+
+			<div class="wow fadeInUp col-md-offset-2 col-md-4 col-sm-6" data-wow-delay="1s">
+				<h3>Lenero Studio</h3>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+				<strong>Twitter, Inc. 1355 Market Street, Suite 900 San Francisco, CA 94103 United States</strong>
+				<strong>yourwebsitename.co</strong>
+			</div>
+
+			<div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="1.3s">
+				<h3>Contact Detail</h3>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+				<strong>+001 2023432834 / 0234 20342342</strong>
+				<strong>hello@yourstudio.co</strong>			
+			</div>
+			
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    FOOTER SECTION   
+============================== -->
+<footer>
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+				<p class="wow fadeInUp" data-wow-delay="0.6s">Copyright © 2016 Lenero Studio | All Rights Reserved.</p>
+
+				<ul class="social-icon">
+					<li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
+					<li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="1.3s"></a></li>
+					<li><a href="#" class="fa fa-dribbble wow fadeInUp" data-wow-delay="1.6s"></a></li>
+					<li><a href="#" class="fa fa-behance wow fadeInUp" data-wow-delay="1.9s"></a></li>
+					<li><a href="#" class="fa fa-google-plus wow fadeInUp" data-wow-delay="2s"></a></li>
+				</ul>
+
+			</div>
+			
+		</div>
+	</div>
+</footer>
+
+
+<!-- Back top -->
+<a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+
+<!-- =========================
+     SCRIPTS   
+============================== -->
+<script src="{%static 'javascript/jquery.js'%}"></script>
+<script src="{%static 'javascript/bootstrap.min.js'%}"></script>
+<script src="{%static 'javascript/jquery.parallax.js'%}"></script>
+<script src="{%static 'javascript/isotope.js'%}"></script>
+<script src="{%static 'javascript/imagesloaded.min.js'%}"></script>
+<script src="{%static 'javascript/nivo-lightbox.min.js'%}"></script>
+<script src="{%static 'javascript/jquery.backstretch.min.js'%}"></script>
+<script src="{%static 'javascript/counter.js'%}"></script>
+<script src="{%static 'javascript/smoothscroll.js'%}"></script>
+<script src="{%static 'javascript/wow.min.js'%}"></script>
+<script src="{%static 'javascript/custom.js'%}"></script>
+ 
+</body>
+</html>
